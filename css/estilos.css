@@ -1,8 +1,9 @@
 body
 {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(91,91,91,1) 50%, rgba(0,0,0,1) 98%);
     color: #333;
     /*text-align: center;*/
-    font-family: "Courier";
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@ body
 
 .cabecera
 {
-    background: #33A;
+    background: black;
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
     font-weight: bold;
@@ -43,11 +44,23 @@ body
     padding: 1em;
 }
 
-.f-14 {
- font-size: x-large;
+.text-cabecera {
+    font-family: "Courier";
+    font-size: x-large;
+    margin-left: 50px;
 }
 
-.card-style {
-    background-color: #333;
+.text-nombre {
+    font-size: xx-large;
+    font-family: "Courier";
     color: #fff;
+}
+
+.border-perfil {
+    width: 20%;
+    height: 100%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
 }
